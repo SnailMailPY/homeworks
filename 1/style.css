@@ -1,0 +1,44 @@
+h1 {
+    color:brown;
+    text-align: center;
+  }
+  header {
+    font-size: 0.8em;
+    color: red;
+ }  
+ fieldset.pr {
+    color:dimgray
+    
+ }
+ *{
+    background-color:peachpuff
+    
+ }
+ul.list{
+    list-style-type:disc;
+    list-style-image: -moz-radial-gradient();
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+div.img {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-basis: 300px; height:  250px;
+}
+div.hat{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+}
+@media print {
+    header, footer {
+        display:none
+    }
+}
+@media (orientation: portrait) {
+    * {
+        background-color:blanchedalmond;
+    }
+}
