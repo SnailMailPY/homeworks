@@ -1,19 +1,30 @@
-header{
-  height: 400px;
-  background-color: bisque;
-}
-.div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500;
-}
+
 *{
   padding: 0;
   margin: 0;
 }
-button{
-  width: 300px;
-  height: 150px;
-  background-color: aquamarine;
+.board{
+  width: 500px;
+  height: 500px;
+  background-color: blanchedalmond;
+}
+.btn {
+  border: none;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Quicksand';
+  background-color: #aa9b77;
+  color: #ffffff;
+  width: 150px;
+  height: 55px;
+  margin-top: 45px;
+  left: 50%;
+  position: absolute;
+  transition: 0.9s;
+  font-weight: bold;
+  box-shadow: #aa9b79;
+
 }
