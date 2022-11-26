@@ -1,11 +1,14 @@
 const random = (min, max) => {
-    const rand = min + Math.random() * (max - min + 1);
-    return Math.floor(rand);
-}
-var count=1;
+    return Math.floor(Math.random() * (max - min + 1));
+  } /*Эта функция возвращает случайное !целочисленное! значение из заданного диапазона, иначе вернет от 0 до 1, и округляем до целого в
+  меньшую сторону/*
 
-const btn = document.querySelector('#btn');
-btn.addEventListener('mouseenter', () => {
-    btn.style.left = `${random(0, 99)}%`;
-    btn.style.top = `${random(0, 99)}%`;
-});
+
+
+const btn = document.querySelector('#btn') /*говорим программе, что надо объявить постоянную, которая будет взаимодействовать с кнопкой
+с интендификатором btn*/
+btn.addEventListener('mouseenter', () => {  // обозначаем, что будет происходить при наведении на кнопку
+    btn.style.left = `${random(0, 95)}%`; /* заключаем в обратные кавычки и ставим знак $ для вычисления
+     функции рандома (т.е. переменной, которую мы вычислили с помощью этой функции)*/
+    btn.style.top = `${random(0, 95)}%` //кстати, значение 95 мы берем...забыла, почему...
+})
