@@ -85,8 +85,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    color: white;
-    
+    color: white;   
 }
 
 .main_welcome{
@@ -161,7 +160,9 @@ main{
   .custom-checkbox:disabled+label::before {
     background-color: #696969;
   }
+
   .checkbox{
+    
     background-color: #f5f6f7;
     width: 100%;
     height:140px;
@@ -205,36 +206,43 @@ main{
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
-.man{
+.manSection{
     background-color: #ffffff;
-    width: 100%;
+    width: 95%;
     height: 100px;
-    margin-top: 86px;
-    margin-left: 100px;
+    padding-top: 86px;
+    padding-left: 76px;
     color: #424242;
     font-size: smaller;
     display: flex;
     flex-direction: row;
 }
-.drob{
-    padding-right: 55px;
-    font-size: 12px;
-    width: 60px;
-    height: 43px;
+.drobdiv{  
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-items: right;
     color: #aa9b77;
-    padding-left: 95%;
-    
 
-
+}
+.drob{ 
+    font-size: 12px;
+    margin-left: 93%;
+    height: 43px;
 }
 .drob1{
     font-size: 12px;
-    width: 130px;
+    width: 95%;
     height: 43px;
     color: #aa9b77;
     padding-left: 6%;
 }
+.drobdiv2{  
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-items: right;
+    color: #aa9b77;
 
+}
 .polosa{
     width: 1250px; 
     height: 2px;
@@ -251,12 +259,11 @@ main{
     margin-top: 22px;
 
 }
-.woman{
+.womanSection{
     background-color: #ffffff;
-    width: 100%;
     height: 100px;
-    margin-top: 86px;
-    margin-left: 65px;
+    padding-top: 86px;
+    padding-left: 65px;
     color: #424242;
     font-size: smaller;
     display: flex;
@@ -268,6 +275,11 @@ main{
 .stuff{
     width: 100%;
     
+}
+.stuffdown{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
 }
 
 .stuff1{
@@ -314,7 +326,7 @@ main{
     justify-content: center;
     flex-direction: row;
     margin-right: 60px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 .white{
     background-color: white;
