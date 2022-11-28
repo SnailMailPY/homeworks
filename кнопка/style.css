@@ -4,9 +4,9 @@ body {
 }
 
 
-
+/* сделаем игровое поле по размеру экрана*/
 .board {
-    width:100vh;
+    width:100vh; 
     height: 100vw;
     background-color:aquamarine;
 }
