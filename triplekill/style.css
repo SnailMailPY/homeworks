@@ -1,0 +1,89 @@
+body,header {
+    color:white;
+    background-color: rgba(27, 13, 79, 0.733);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+    width: 100vw;
+}
+header{
+    height: 80px;
+}
+.darkTheme{
+    color: rgb(243, 241, 246);
+    background: url('img/back.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 800px;
+}
+.dialogue{
+    display: flex;
+    justify-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100vw;
+    left: 0;
+}
+ul{
+    list-style: none;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+}
+ul li{
+    flex-basis: 32%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    width: 100vw;
+}
+
+ul li:hover{
+    background-color: rgb(121, 176, 204);
+    color: #000;
+    cursor: pointer;
+}
+h1, p {
+    text-align: center;
+}
+
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+
+.btn {
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 44px;
+    font-family: 'Quicksand';
+    border-radius: 3px;
+    background-color: #560370;
+    color: #ffffff;
+    width: 290px;
+    height: 80px;
+}
+
+.buttondiv{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
