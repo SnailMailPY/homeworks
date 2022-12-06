@@ -10,7 +10,7 @@ header{
     height: 80px;
 }
 .darkTheme{
-    color: rgb(243, 241, 246);
+    color: rgb(255, 0, 140);
     background: url('img/back.jpg') no-repeat center;
     background-size: cover;
     min-height: 800px;
